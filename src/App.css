@@ -1,0 +1,75 @@
+body {
+  background: #fdfcff;
+}
+
+* {
+  margin: 0;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-outlined.add {
+  margin: 5px 0;
+}
+.lists {
+  display: flex;
+  margin-top: 50px;
+}
+.list {
+  background: rgba(245, 245, 245, 0.91);
+  padding: 10px 13px;
+  margin: 0 10px;
+  overflow-wrap: break-word;
+  min-width: 300px;
+  width: 300px;
+  height: 100%;
+  border-radius: 8px;
+}
+.card {
+  overflow-wrap: break-word;
+  margin: 10px 0px;
+  width: 300px;
+
+}
+.MuiCardContent-root {
+  padding: 2px 15px !important;
+}
+
+.add {
+  height: 100%;
+}
+
+.row {
+  display: grid;
+  grid-gap: 15px;
+  height: 100%;
+}
+
+.titleList {
+  padding-bottom: 15px;
+}
+
+.MuiFormControl-root {
+  width: 100%;
+}
+
+ .MuiInput-underline:before,  .MuiInput-underline:after {
+  content: none !important;
+}
+
+.listField textarea{
+  font-size: 1.5rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.334;
+  letter-spacing: 0em;
+ }
+.cardField textarea{
+  font-size: 1.25rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+}
+
+.delete {
+  float: right;
+  margin: 0 0 15px 0 !important;
+}
